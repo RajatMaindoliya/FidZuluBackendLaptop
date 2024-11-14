@@ -1,0 +1,22 @@
+{
+  "name": "fidzulu_backend_laptop",
+  "version": "1.0.0",
+  "description": "Creating the backend service for the laptop data for the fidzulu project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajatMaindoliya/FidZulu-Backend-Laptop.git"
+  },
+  "author": "Rajat Maindoliya / Thomas Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajatMaindoliya/FidZulu-Backend-Laptop/issues"
+  },
+  "homepage": "https://github.com/RajatMaindoliya/FidZulu-Backend-Laptop#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
