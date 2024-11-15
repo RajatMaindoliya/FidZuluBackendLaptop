@@ -4,8 +4,8 @@
   "description": "Creating the backend service for the laptop data for the fidzulu project",
   "main": "index.js",
   "scripts": {
-    "start": "node src/service/laptop-restcontroller.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/service/laptop-restcontroller.js"
+    
   },
   "repository": {
     "type": "git",
