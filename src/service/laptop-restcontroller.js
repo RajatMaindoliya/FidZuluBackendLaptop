@@ -14,7 +14,7 @@ class LaptopRestController{
         this.app.use(express.json());
 
 
-        // this.app.use(cors());
+        // sample URL: http://localhost:3036/laptops/all/ie
 
         const router = express.Router();
         router.get('/laptops/all/:location', this.getAllLaptops.bind(this));
@@ -52,7 +52,7 @@ class LaptopRestController{
     }
     async getTeam(req, res) {
         const team = {
-            teamName: "Best Team",
+            teamName: "MAXI V2",
             members: ["Rajat Maindoliya", "Thomas Moore"]
         };
         res.json(team);

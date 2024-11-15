@@ -59,23 +59,23 @@ async function closeConnection(connection) {
     }
 }
 
-async function testConnection() {
-    let connection;
-    try {
-        connection = await getConnection();
-        const result = await connection.execute('select * from laptop');
-        console.log("Connection test successful: ", result);
-    } catch (err) {
-        console.error("Connection test failed: ", err);
-    } finally {
-        if (connection) {
-            await closeConnection(connection);
-        }
-    }
-}
+// async function testConnection() {
+//     let connection;
+//     try {
+//         connection = await getConnection();
+//         const result = await connection.execute('select * from laptop');
+//         console.log("Connection test successful: ", result);
+//     } catch (err) {
+//         console.error("Connection test failed: ", err);
+//     } finally {
+//         if (connection) {
+//             await closeConnection(connection);
+//         }
+//     }
+// }
 
 // Call this function to test the connection
-testConnection();
+// testConnection();
 
 
 async function executeDml(stmts) {
