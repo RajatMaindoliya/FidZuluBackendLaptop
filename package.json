@@ -4,6 +4,7 @@
   "description": "Creating the backend service for the laptop data for the fidzulu project",
   "main": "index.js",
   "scripts": {
+    "start": "node src/service/laptop-restcontroller.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/RajatMaindoliya/FidZulu-Backend-Laptop#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "oracledb": "^6.6.0"
   }
 }
