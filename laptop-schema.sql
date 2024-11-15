@@ -1,6 +1,6 @@
-DROP TABLE bike;
+DROP TABLE laptop;
 
-CREATE TABLE bike (
+CREATE TABLE laptop (
     int id PRIMARY KEY NOT NULL,
     product VARCHAR(512),
     brand	VARCHAR(512),
@@ -8,3 +8,4 @@ CREATE TABLE bike (
     memory VARCHAR(512),
     price	NUMBER
 );
+
